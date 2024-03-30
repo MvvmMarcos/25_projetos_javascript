@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin: 1rem auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+label{
+    font-weight: bold;
+}
+input,
+textarea{
+    padding: .8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.error-message{
+    color: #f00;
+    margin-top: 0.2rem;
+}
+button{
+    background-color: #2756af;
+    color: #fff;
+    padding: .6rem 1.2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color .4s;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #132f63;
+}
+.error input,
+.error textarea{
+    border-color: #f00;
+}
